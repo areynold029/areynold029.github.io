@@ -19,19 +19,29 @@ body {
 .image {
     width: 30%;
     height: 30%;
+
+
 }
+
 .row {
     display: flex;
     flex-direction: inherit;
     justify-content: space-around;
 }
 
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .row > .description {
     color: #900c5f;
     font-weight: bold;
 }
-.th,{
+table, th, td {
     border: 1px solid black;
-    border-radius: 10px;
 }
+
 
